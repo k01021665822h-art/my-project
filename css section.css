@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f2f2f2;
+}
+
+
+
+
+/* Header */
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Sections */
+section {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+/* Search */
+.search input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Categories */
+.categories ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.categories li {
+    display: inline-block;
+    background: #333;
+    color: white;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+/* Blog */
+.blogs h2 {
+    text-align: center;
+}
+
+.blogs .post {
+    background: #444;
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.post img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.date {
+    color: #ccc;
+    font-size: 14px;
+}
+
+/* Button */
+.read-btn {
+    background: #fff;
+    color: #333;
+    padding: 8px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+/* Author */
+.author {
+    font-size: 14px;
+    color: #ddd;
+}
+
+/* Popular */
+.popular-post {
+    background: #444;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.popular-post span {
+    font-size: 13px;
+    color: #ccc;
+}
+
+/* Newsletter */
+.newsletter {
+    text-align: center;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #333;
+    color: white;
+    margin-left: 10px;
+}
+
+/* Author Box */
+.author-box {
+    text-align: center;
+}
+
+/* names box */
+.stu {
+    background: #4444443a;
+    padding: 20px;
+    color: rgb(3, 3, 3);
+    margin: 15px 0;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.h2 {
+    color: #4d4d4d;
+}
+
+/* follow pages */
+
+
+.follow-link {
+    text-decoration: none;
+    color: #222;
+}
+
+.follow-h2 {
+    color: #4d4d4d;
+
+}
+
+.follow li {
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Back to Top */
+.top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #333;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-decoration: none;
+}
